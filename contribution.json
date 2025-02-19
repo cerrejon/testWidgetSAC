@@ -1,0 +1,36 @@
+{
+    "id": "CustomValidationButton",
+    "version": "1.0.0",
+    "name": "Validation Button",
+    "newInstancePrefix": "VBTN",
+    "webcomponents": [
+      {
+        "kind": "main",
+        "tag": "custom-validation-button",
+        "url": "http://localhost:8080/main.js",
+        "integrity": "sha256-b5GV1z+8PzF/7EJHdUOUL+JLR5XUuKuG9YsU2XgN1pQ="
+      },
+      {
+        "kind": "styling",
+        "tag": "custom-validation-button-style",
+        "url": "http://localhost:8080/styling-webcomponent.jss",
+        "integrity": "sha256-V3klJGTpC+5DpV3UCQ1K/F1GbQNtHtHfYzR0LhU=" 
+      }
+    ],
+    "properties": {
+      "buttonText": { "type": "string", "default": "Validar Datos" },
+      "tableAlias": { "type": "string", "default": "Table_5" },
+      "messageArea": { "type": "string", "default": "TextArea_1" },
+      "buttonSuccess": { "type": "string", "default": "Button_1" },
+      "buttonError": { "type": "string", "default": "Button_3" },
+      "popup": { "type": "string", "default": "Popup_1" }
+    },
+    "methods": {
+      "validateData": {
+        "parameters": [],
+        "body": "this.validateData();"
+      }
+    },
+    "events": {}
+  }
+  
